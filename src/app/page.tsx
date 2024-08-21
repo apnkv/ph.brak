@@ -27,7 +27,7 @@ const Graph = (props: GraphProps) => {
           id="igraph"
           scrolling="no"
           style={{border: "none"}}
-          seamless="seamless"
+          seamless
           src={`${plotlyEmbedUrl}?autosize=true&link=false&modebar=false&theme=light`}
           height={height}
           width="100%"
